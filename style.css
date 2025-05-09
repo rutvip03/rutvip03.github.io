@@ -47,3 +47,34 @@ footer {
 body {
     background-color: rgb(229, 204, 229);
 }
+
+.main-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.text-content {
+    flex: 0.2;
+}
+
+.asset-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px 0;
+}
+
+.image-grid img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
